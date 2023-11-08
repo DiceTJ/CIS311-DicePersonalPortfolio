@@ -1,0 +1,73 @@
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+nav {
+    margin:10px 0;
+    border: 1px solid black;
+    display:inline-block;
+    width:15%;
+    float:left;
+}
+
+site-header {
+    border: 1px solid black;
+    display:inline-block;
+    width:84%;
+    float:right;
+}
+
+site-header h1 {
+    text-align: center;
+}
+
+sec-header {
+    border: 1px solid black;
+    display:inline-block;
+    width:84%;
+    float:right;
+}
+
+sec-header h2 {
+    text-align: center;
+}
+
+main {
+    /*border:1px solid;*/
+}
+
+announcement {
+   /* border:1px solid; */
+}
+
+introduction {
+    /*border:1px solid;*/
+    float:left;
+    width:74%;
+}
+
+profile-image {
+    
+}
+
+cur-list {
+    border:1px solid;
+    float:right;
+    width:25%;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    border:1px solid;
+    width:100%;
+    background-color: white;
+    height:30px;
+}
+
+footer p {
+    text-align: center;
+    
+}
