@@ -82,6 +82,7 @@ table {
   
   .sec-header { grid-area: sec-header;
     text-align: center;
+    text-shadow: black 1px 0 10px;
   }
   
   .announcement { grid-area: announcement; }
@@ -100,14 +101,14 @@ table {
     border: 1px solid black;
   }
   
-
+/*Begin Tablet Code */
   @media only screen and (max-width: 800px) {
     
     body {
       font-size: 90%;
     }
   }
-  
+  /* Begin Phone code */
   @media only screen and (max-width: 667px) {
     .container {
       grid-template: repeat(5, auto) / 1fr;
@@ -141,14 +142,3 @@ table {
     }
   }
   
-  @media only screen and (max-width: 479px) {
-    header h2 {
-      font-size: 180%;
-    }
-    header h3 {
-      font-size: 115%;
-    }
-    section h1 {
-      font-size: 130%;
-    }
-  }
