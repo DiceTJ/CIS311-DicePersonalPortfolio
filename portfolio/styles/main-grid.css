@@ -63,7 +63,7 @@ table {
       "introduction introduction Curated-Links"
       "footer footer footer";
     border: 1px solid black;
-    
+    font-family: "Nova_Square", sans-serif;
   }
   
   .nav { grid-area: nav;
@@ -77,6 +77,8 @@ table {
   
   }
   .site-header h1 {font-size:200%;}
+
+  .site-header img {border-radius: 50%;}
   
   .sec-header { grid-area: sec-header;
     text-align: center;
@@ -98,3 +100,55 @@ table {
     border: 1px solid black;
   }
   
+
+  @media only screen and (max-width: 800px) {
+    
+    body {
+      font-size: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 667px) {
+    .container {
+      grid-template: repeat(5, auto) / 1fr;
+      grid-template-areas:
+        "site-header"
+        "sec-header"
+        "nav"
+        "announcement"
+        "introduction"
+        "Curated-Links"
+        "footer";
+    }
+    #nav_menu {
+      display: none;
+    }
+    #mobile_menu {
+      display: block;
+      grid-area: navi;
+    }
+    header h2 {
+      font-size: 200%;
+    }
+    section {
+      padding-left: 5%;
+    }
+    aside {
+      padding: 0 5% 1em 5%;
+    }
+    #nav_list ul {
+      padding: 0 30%;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    header h2 {
+      font-size: 180%;
+    }
+    header h3 {
+      font-size: 115%;
+    }
+    section h1 {
+      font-size: 130%;
+    }
+  }
