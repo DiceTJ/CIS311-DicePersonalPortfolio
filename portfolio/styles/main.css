@@ -18,6 +18,10 @@ site-header {
     width:84%;
     float:right;
 }
+site-header profile-image
+    {
+        float:inline-end;
+    }
 
 site-header h1 {
     text-align: center;
