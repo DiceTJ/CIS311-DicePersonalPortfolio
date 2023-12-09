@@ -92,6 +92,11 @@ table {
     border: 1px solid;
     background-color: rgb(211, 204, 204);
   }
+
+  .announcement form, input {
+    box-sizing: border-box;
+    margin: 8px 0;
+  }
   
   .Curated-Links { grid-area: Curated-Links;
     text-align: center;
