@@ -10,20 +10,25 @@
     <title>About Me!</title>
     <link rel="stylesheet" href="styles/main-grid.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nova_Square">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/script1.js"></script>
   </head>
-
 
 <body>
   <div class="container">
-    <div class="nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="wiki.html">Wiki</a></li>
+    <nav id="mobile_menu"></nav>
+    <div class="nav" id='nav_menu'>
+      <ul class="menu">
+        <li><a class="menuItem" href="index.html">Home</a></li>
+        <li><a class="menuItem" href="about.html">About</a></li>
+        <li><a class="menuItem" href="work.html">Work</a></li>
+        <li><a class="menuItem" href="projects.html">Projects</a></li>
+        <li><a class="menuItem" href="wiki.html">Wiki</a></li>
       </ul>
+      <button class="hambuger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
     </div>
     <div class="site-header">
   
