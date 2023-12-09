@@ -85,7 +85,13 @@ table {
     text-shadow: black 1px 0 10px;
   }
   
-  .announcement { grid-area: announcement; }
+  .announcement { grid-area: announcement;
+    
+  }
+  .announcement table, th, td {
+    border: 1px solid;
+    background-color: rgb(211, 204, 204);
+  }
   
   .Curated-Links { grid-area: Curated-Links;
     text-align: center;
